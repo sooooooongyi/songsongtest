@@ -15,3 +15,6 @@
 - css position이나 float를 이용한 깔끔한 정리
 - html 레이아웃 (모바일 웹앱) -> 미디어쿼리 적용
 - 무난한 디자인.. (부트스트랩..?ㅎㅎ)
+
+### 포스팅
+- https://velog.io/@songsong/Project-%EC%86%A1%EC%86%A1%EA%B3%A0%EC%82%AC
