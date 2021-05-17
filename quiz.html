@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>quiz</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: 'Gamja Flower', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div class="quiz_wrapper">
+        <h1 onclick="goindex()">💗송송 고사💗</h1>
+        <div class="quiz_content">
+            <div class="quizs">
+                <div class="quiz">
+                    <div class="quiz_title">1. 송이랑 두번째 본 영화는?</div>
+                    <div class="quiz_answer">
+                        <input type="checkbox" name="ans" value="0"> 치즈인더트랩
+                        <input type="checkbox" name="ans" value="20"> 인피니티 워
+                    </div>
+                </div>
+                <div class="quiz">
+                    <div class="quiz_title">2.송이가 제일 좋아하는 과일은?</div>
+                    <div class="quiz_answer">
+                        <input type="checkbox" name="ans" value="0"> 메론
+                        <input type="checkbox" name="ans" value="20"> 체리
+                    </div>
+                </div>
+                <div class="quiz">
+                    <div class="quiz_title">3. 송이의 프로필 키는 165cm 이다. 실제 송이의 키는?</div>
+                    <div class="quiz_answer">
+                        <input type="checkbox" name="ans" value="20"> 164.6
+                        <input type="checkbox" name="ans" value="0"> 165.3
+                    </div>
+                </div>
+                <div class="quiz">
+                    <div class="quiz_title">4. 주상이와 카페를 간 송이가 창밖을 보고 "헐ㅠㅠㅠㅠ저것봐" 했다. 저것은 무엇인가?</div>
+                    <div class="quiz_answer">
+                        <input type="checkbox" name="ans" value="0"> 올리브영 세일 광고
+                        <input type="checkbox" name="ans" value="20"> 퐁실퐁실 강아지
+                    </div>
+                </div>
+                <div class="quiz">
+                    <div class="quiz_title">5. 송이가 다이어트 후 먹을 음식은?</div>
+                    <div class="quiz_answer">
+                        <input type="checkbox" name="ans" value="10"> 치즈 고기 폭탄 피자
+                        <input type="checkbox" name="ans" value="10"> 엽떡 풀코스
+                    </div>
+                </div>
+            </div>
+            <button class="quiz_btn" id="quiz_submit" onclick="calculate()">제출 </button >
+        </div>
+        <div class="quiz_footer">
+            <div class="quiz_name">Copyright 2021. songsong. All rights reserved.</div>
+            <a href="https://github.com/thddlmy"><img src="image/free-icon-github-889111.png"></a>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script> 
+</body>
+</html>
